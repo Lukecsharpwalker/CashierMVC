@@ -1,6 +1,6 @@
 FROM microsoft/dotnet:latest
 COPY . /app
-WORKDIR /app
+WORKDIR /app/CashierMVC
 
 RUN dotnet restore
 RUN dotnet build
